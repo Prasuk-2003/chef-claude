@@ -4,7 +4,7 @@ import IngredientsList from "./IngredientsList"
 import { getRecipeFromLlama } from "../ai"
 
 export default function Main() {
-    const [ingredients,setIngredients] = useState(["cumin","pasta","all the main spices","cheese"])
+    const [ingredients,setIngredients] = useState([])
     const [recipe,setRecipe] = useState("")
     const recipeSection = useRef(null)
 

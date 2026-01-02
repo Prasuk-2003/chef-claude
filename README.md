@@ -1,16 +1,54 @@
-# React + Vite
+# Chef Claude 🍳🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Chef Claude is an AI-powered recipe generator that generates recipes based on user-provided ingredients.  
+Built using **React + Vite** and powered by a **Hugging Face language model**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Generate recipes from a list of ingredients
+- AI-powered responses using Hugging Face
+- Clean and responsive UI
+- Component-based React architecture
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
+- React
+- Vite
+- JavaScript (ES6+)
+- Hugging Face Inference API
+- CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+![App Screenshot](./screenshots/home.png)
+
+---
+
+## ⚙️ Setup & Installation
+```bash
+git clone https://github.com/Prasuk-2003/chef-claude.git
+cd chef-claude
+npm install
+npm run dev
+```
+
+---
+
+## 🔐 Environment Variables
+Create a .env file using .env.example and add your Hugging Face access token.
+
+---
+
+## 🌐 Live Demo
+👉 [https://your-vercel-link.vercel.app](https://chef-claude-03.vercel.app/)
+
+---
+
+## 📚 What I Learned
+- How to structure a React app using reusable components
+- Managing API keys securely with environment variables
+- Integrating AI models into frontend applications
+- Handling async API calls and conditional rendering

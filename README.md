@@ -43,7 +43,7 @@ Create a .env file using .env.example and add your Hugging Face access token.
 ---
 
 ## 🌐 Live Demo
-👉 [https://your-vercel-link.vercel.app](https://chef-claude-03.vercel.app/)
+👉 [https://chef-claude.vercel.app](https://chef-claude-03.vercel.app/)
 
 ---
 
